@@ -1,12 +1,48 @@
-# Starter Next/Hardhat Project
+# Project Title
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+Metacrafters ATM
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Description
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+The Metacrafters ATM is a simple decentralized application (DApp) that allows users to interact with an Ethereum smart contract named "Assessment." Users can connect their MetaMask wallet, view their account details, check the balance, make deposits, and withdraw funds.
+
+## Getting Started
+
+### Installing
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/metacrafters-atm.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd metacrafters-atm
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Executing program
+
+1. Start the development server:
+   ```bash
+   npm start
+   ```
+
+2. Open your web browser and navigate to `http://localhost:3000`.
+
+## Help
+
+If you encounter any issues, ensure that you have MetaMask installed and configured. Additionally, make sure your MetaMask wallet is connected, and you are on an Ethereum-compatible network.
+
+## Authors
+
+- Your Name  Gauri Gupta
+- Your Email  gauripc44@gmail.com
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
